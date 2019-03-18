@@ -1,0 +1,1054 @@
+/********* FONT FAMILY  */
+@font-face {
+  font-family: Roboto-Medium;
+  src: url("fonts/Roboto-Medium.ttf");
+}
+
+@font-face {
+  font-family: Roboto-Black;
+  src: url("fonts/Roboto-Black.ttf");
+}
+
+@font-face {
+  font-family: Roboto-Light;
+  src: url("fonts/Roboto-Light.ttf");
+}
+
+@font-face {
+  font-family: Roboto-thin;
+  src: url("fonts/Roboto-Thin.ttf");
+}
+
+@font-face {
+  font-family: Roboto-Regular;
+  src: url("fonts/Roboto-Regular.ttf");
+}
+
+@font-face {
+  font-family: Roboto-Bold;
+  src: url("fonts/Roboto-Bold.ttf");
+}
+
+
+/********************** general *************************/
+/********************** general *************************/
+/********************** general *************************/
+/********************** general *************************/
+aside i
+{
+  color: grey;
+  font-size: 1em;
+}
+
+body
+{
+  text-align: center;
+}
+
+*
+{
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto-Medium', arial, sans-serif;
+
+}
+
+
+section
+{
+  clear: both;
+}
+.bloc
+{
+  width: 1200px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+ul
+{
+  list-style-type: none;
+}
+
+a
+{
+  text-decoration: none;
+}
+
+p
+{
+  color: rgba(0, 0, 0, 0.6);
+}
+strong
+{
+  color: black;
+}
+
+
+/***************header***********************************/
+/***************header***********************************/
+/***************header***********************************/
+/***************header***********************************/
+
+
+
+
+
+
+header
+{
+  height: 100px;
+  width: 100%;
+  position: fixed;
+  top: 0px;
+  background-color: white;
+  z-index: 100;
+  border-bottom: 4px solid #5daacf;
+}
+
+header div.bloc
+{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#logo
+{
+  padding-left: 60px;
+}
+
+nav
+{
+  padding-right: 20px;
+}
+header div.bloc nav ul li
+{
+  display: inline-block;
+  padding: 0 10px;
+  line-height: 100px;
+  border-top: 3px solid white;
+}
+
+
+header div.bloc nav ul li:last-child
+{
+
+  margin-right: 0px;
+
+}
+header div.bloc nav ul li a
+
+{
+  color: rgba(0, 0, 0, 0.6);
+}
+
+header div.bloc nav ul li:hover
+{
+  color: black;
+  border-top: 3px solid #5daacf;
+}
+
+header div.bloc nav ul li a:hover
+{
+  color: black;
+}
+
+
+
+
+
+
+
+/* *********************slider *************************/
+/* *********************slider *************************/
+/* *********************slider *************************/
+
+
+
+
+
+
+
+#slider
+{
+  background: url('images/slider/bg1.jpg') center;
+  background-size: cover;
+  height: 600px;
+  margin-top: 100px;
+  width: 100%;
+
+}
+
+.fleche_gauche
+{
+  position: relative;
+  top: 42%;
+  width: 30px;
+  height: 70px;
+  background-color: black;
+  opacity: 0.5;
+  border-right: 1px solid black;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+
+}
+
+.fleche_gauche i, .fleche_droite i
+{
+  color: white;
+  padding-top: 20px;
+  font-size: 2em;
+}
+
+.fleche_droite
+{
+  position: absolute;
+  top: 350px;
+  right: 0;
+  width: 30px;
+  height: 70px;
+  background-color: black;
+  opacity: 0.5;
+  border-left: 1px solid black;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+}
+
+.fleche_droite:hover, .fleche_gauche:hover
+{
+  background-color: #5daacf;
+}
+
+.ligne
+{
+  height: 5px;
+  width: 100%;
+  background-color: black;
+  opacity: 0.6;
+
+
+}
+.ligne_bleu
+{
+  height: 5px;
+  width: 10%;
+  background-color: #5daacf;
+  margin-top: -5px;
+  position: relative;
+  z-index: 3;
+}
+
+#descriptif_slider
+{
+  height: 300px;
+  width: 600px;
+  padding-top: 50px;
+  text-align: left;
+  padding-left: 60px;
+}
+
+#slider h1 strong
+{
+  color: #5daacf;
+}
+
+
+#slider h1
+{
+  color: white;
+}
+
+#slider p
+{
+  color: white;
+  margin-top: 20px;
+
+}
+
+#bouton_bleu
+{
+  margin-top: 20px;
+}
+
+#bouton_bleu a
+{
+  color: white;
+  font-size: 1.6em;
+  width: 150px;
+  height: 50px;
+  background-color: #5daacf;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  box-shadow: 0px 4px  #3491B2;
+}
+
+#bouton_bleu a:hover
+{
+  background-color: #3491B2;
+  box-shadow: 0px 4px  #5daacf;
+}
+
+
+/* ********************* NOS SERVICES *************************/
+/* ********************* NOS SERVICES *************************/
+/* ********************* NOS SERVICES *************************/
+/* ********************* NOS SERVICES *************************/
+
+
+
+#nos_services
+{
+  clear: both;
+  margin: auto;
+}
+
+#nos_services h2
+{
+  font-size: 3em;
+  font-family: 'Roboto-Medium';
+  margin-top: 40px;
+
+}
+
+.separation
+{
+  width: 140px;
+  height: 1px;
+  background-color: #ccc;
+  opacity: .7;
+  margin: auto;
+  margin-top: 30px;
+}
+
+.rond_bleu
+{
+  position: relative;
+  width: 15px;
+  height: 15px;
+  background-color: #5daacf;
+  border-radius: 50%;
+  margin: auto;
+  margin-top: -13px;
+  border: 5px solid white;
+}
+#texte_section
+{
+  margin: auto;
+  width: 600px;
+  margin-top: 30px;
+}
+
+
+.bas
+{
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+
+aside
+{
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+}
+
+aside h3
+{
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+.case
+{
+  display: flex;
+  flex-direction: row;
+  margin-top: 30px;
+}
+
+.description
+{
+  text-align: justify;
+  justify-content: space-between;
+
+}
+.case .service .cercle .rond_bleu
+{
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  margin-top: -27px;
+  margin-left: 59px;
+
+
+}
+.service
+{
+  margin-right: 30px;
+  margin-top: 20px;
+  width: 70px;
+  height: 70px;
+}
+.logo
+{
+  color: #5daacf;
+  padding-top: 27%;
+
+}
+
+.cercle
+{
+  border: 1px solid rgba(0,0,0,0.2);
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+
+}
+
+/* ********************* NOS PROJETS *************************/
+/* ********************* NOS PROJETS *************************/
+/* ********************* NOS PROJETS *************************/
+/* ********************* NOS PROJETS *************************/
+
+
+#nos_projets
+{
+  margin-top: 20px;
+  background-color: #f5f5f5;
+}
+
+#nos_projets h2
+{
+  text-align: center;
+  margin-top: 50px;
+  font-size: 3em;
+  padding-top: 20px;
+}
+
+#texte_nos_projets
+{
+  margin: auto;
+  width: 600px;
+  margin-top: 30px;
+
+}
+
+/* ********************* NOS PROJET MENUS NAV *************************/
+
+.portfolio-navigation
+{
+  margin: auto;
+  margin-top: 40px;
+  width: 450px;
+  border-top: 6px;
+  padding: 0;
+}
+
+.portfolio-navigation ul
+{
+  width: auto;
+  display: inline-block;
+  background-color: silver;
+  text-align: center;
+  border-radius: 5px;
+  font-size: 0;
+}
+
+
+.portfolio-navigation ul li
+{
+  display: inline-block;
+  font-size: 18px;
+
+}
+
+.items
+{
+  color: white;
+  padding: 0 10px;
+  line-height: 50px;
+  display: block;
+  height: 50px;
+  border-bottom: 3px solid silver;
+  border-radius: 5px;
+  border-color: #3491B2 transparent transparent;
+}
+
+.items a
+{
+  color: rgba(0, 0, 0, 0.6);
+  font-family: Roboto, arial, sans-serif;
+}
+
+.active a
+{
+  color: white;
+  font-family: Roboto, arial, sans-serif;
+}
+
+
+.items:hover, .active
+{
+  background-color: #5daacf;
+  border-bottom: 3px solid #3491B2;
+
+}
+
+
+.portfolio-navigation ul li:hover::after, .portfolio-navigation ul li.active::after
+{
+  position: relative;
+  display: block;
+  content: "";
+  left: 50%;
+  margin-left: -10px;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-color: #3491B2 transparent transparent;
+  border-width: 10px 10px 0px 10px;
+
+}
+
+.portfolio-navigation ul li:hover, .portfolio-navigation ul li.active
+{
+
+  border-radius: 0px 0px 0px 0px;
+
+}
+
+.portfolio-navigation ul li:first-child:hover,.portfolio-navigation ul li.active
+{
+  background-color: #5daacf;
+  border-radius: 5px 0px 0px 5px;
+
+}
+
+.portfolio-navigation ul li:last-child:hover
+{
+  background-color: #5daacf;
+  border-radius: 0px 5px 5px 0px;
+
+}
+
+
+/* /////////////////// IMAGES NOS PROJETS ///////// */
+
+
+.nav_nos_projets
+{
+  margin: auto;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.images img
+{
+  margin-left: 20px;
+  margin-top: 20px;
+  width: 250px;
+  height: 200px;
+}
+figure.projet
+{
+  display: block;
+  margin-bottom: 40px;
+  height: 200px;
+  overflow: hidden;
+}
+
+figure.projet figcaption
+{
+  position: absolute;
+  width: 240px;
+  height: 80px;
+  margin-top: -104px;
+  margin-left: 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  text-align: left;
+  padding-left: 10px;
+  display: none;
+}
+@keyframes animation {
+    0% {
+        transform: translateY(0px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateY(0px) ;
+        opacity: 1;
+    }
+}
+figure.projet:hover figcaption
+{
+  display: block;
+  animation: animation 2s;
+
+}
+
+.fond_eyes
+{
+  position: absolute;
+  width: 34px;
+  height: 34px;
+  padding: 4px;
+  top: -23px;
+  right: 20px;
+  border: 3px solid white;
+  background-color: #4795B1;
+  border-radius: 50px;
+}
+
+.eyesIcon
+{
+  padding-left: 8px;
+  padding-top: 8px;
+}
+
+
+
+figure.projet figcaption h3
+{
+  padding-top: 15px;
+  color: white;
+}
+figure.projet figcaption p
+{
+  color: white;
+  padding-top: 10px;
+}
+
+
+
+
+
+/********* MAP EST FORMULAIRE *************  / ////////////////////////// */
+/********* MAP EST FORMULAIRE *************  / ////////////////////////// */
+/********* MAP EST FORMULAIRE *************  / ////////////////////////// */
+/********* MAP EST FORMULAIRE *************  / ////////////////////////// */
+
+footer
+{
+  height: 600px;
+  margin-top: 50px
+}
+
+
+footer .container
+{
+  position: absolute;
+  width: 100%;
+  height: 600px;
+  z-index: auto;
+  background-color: rgba(92, 173, 211, 0.7);
+
+}
+
+iframe
+{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+
+}
+
+footer:hover iframe
+{
+  z-index: 2;
+  background: initial;
+}
+
+footer .bloc
+{
+  position: relative;
+  display: block;
+  z-index: 8;
+  height: auto;
+}
+
+.contact_form
+{
+  width: 325px;
+  height: 525px;
+  padding-top: 10px;
+  margin-top: 33px;
+  float: right;
+  text-align: left;
+  background: rgba(255, 255, 255, 0.9);
+  padding-left: 20px;
+
+}
+
+
+.contact_form h2
+{
+  padding-top: 10px;
+}
+.contact_form h3
+
+{
+  padding-top: 10px;
+  color: grey;
+}
+
+.contact_form span
+{
+  text-decoration: underline dotted;
+
+}
+form
+{
+  margin-top: 6px;
+  display: inline-block;
+  text-align: left;
+}
+
+input, textarea
+
+{
+  width: 300px;
+  height: 40%;
+  margin-top: 10px;
+  border: 3px solid #DADCDC;
+  font-size: 1.2em;
+  font-weight: bold;
+  padding: 2px;
+  border-radius: 5px
+
+}
+
+#send
+
+{
+  border: 0px;
+  color: white;
+  font-size: 0.9em;
+  width: 150px;
+  height: 50px;
+  background-color: #5daacf;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  box-shadow: 0px 4px  #3491B2;
+}
+
+
+
+
+
+
+/************************** RESPONSIVE ************************ */
+/************************** RESPONSIVE ************************ */
+/************************** RESPONSIVE ************************ */
+/************************** RESPONSIVE ************************ */
+
+
+
+
+
+@media all and (max-width: 1200px)
+{
+
+
+  .bloc
+  {
+    width: auto;
+  }
+
+  /************************** RESPONSIVE HEADER ************************ */
+  header
+  {
+    height: 110px;
+  }
+
+  header .bloc
+  {
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #logo
+  {
+    padding-left: 0px;
+    padding-top: 8px;
+    padding-bottom: 6px;
+  }
+
+  header div.bloc nav ul li
+  {
+    line-height: 2;
+  }
+
+
+  /************************** RESPONSIVE SLIDER ************************ */
+  #slider
+  {
+    background-size: cover;
+    height: 400px;
+  }
+
+  #descriptif_slider
+  {
+    width: 500px;
+    padding-left: 30px;
+  }
+
+  .fleche_droite
+  {
+    position: absolute;
+    top: 269px;
+    right: 0;
+    width: 30px;
+    height: 70px;
+    background-color: black;
+    opacity: 0.5;
+    border-left: 1px solid black;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+  }
+
+
+  /************************** RESPONSIVE NOS SERVICES ************************ */
+
+  section.bloc #texte_section
+  {
+    width: auto;
+  }
+
+  .bas
+  {
+    margin: auto;
+    flex-direction: column;
+    flex-wrap: wrap;
+    clear: both;
+  }
+
+  #image_ordinateur
+  {
+    width: 100%;
+  }
+  aside
+  {
+    width: auto;
+    padding: 10px;
+  }
+
+
+  /************************** RESPONSIVE NOS PROJET ************************ */
+
+
+  #texte_nos_projets
+  {
+    width: auto;
+  }
+
+  nav.portfolio-navigation
+
+  {
+    width: auto;
+  }
+
+  .images img
+  {
+
+    margin-top: 20px;
+    width: 250px;
+    height: 200px;
+  }
+}
+
+
+
+  @media all and (max-width: 700px)
+{
+
+  #descriptif_slider
+  {
+    width: 400px;
+    margin-top: -50px;
+  }
+
+  #slider
+  {
+    background: url('images/slider/bg1.jpg') center;
+    background-size: cover;
+    background-position-x: 70%;
+    margin-top: 100px;
+
+  }
+}
+
+  @media all and (max-width: 480px)
+
+
+  /************************** RESPONSIVE HEADER ************************ */
+  {
+    header
+    {
+      width: 100%;
+      height: auto;
+    }
+
+    header .bloc
+    {
+      width: auto;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    header div.bloc nav ul li a
+
+    {
+      font-size: 0.9em;
+    }
+
+    .images img
+    {
+
+      margin-top: 20px;
+      margin-left: 0px;
+      width: 250px;
+      height: 200px;
+    }
+
+    /************************** RESPONSIVE SLIDER ************************ */
+
+    #slider
+    {
+      background: url('images/slider/bg1.jpg') center;
+      background-size: cover;
+      background-position-x: 70%;
+      margin-top: 100px;
+
+    }
+
+    #descriptif_slider
+    {
+      height: 300px;
+      width: auto;
+      padding-top: 120px;
+      padding-left: 0px;
+      text-align: left;
+    }
+    #slider h1
+    {
+      font-size: 1.3em;
+    }
+
+    #slider p
+    {
+      font-size: 1em;
+      margin-top: 40px;
+    }
+
+    #bouton_bleu
+    {
+      margin-top: 40px;
+    }
+    #bouton_bleu a
+    {
+      color: white;
+      font-size: 1em;
+      width: 90px;
+      height: 50px;
+      background-color: #5daacf;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 5px;
+      box-shadow: 0px 4px  #3491B2;
+    }
+
+    .fleche_droite, .fleche_gauche
+    {
+      display: none;
+    }
+
+    /************************** RESPONSIVE NOS PROJETS************************ */
+    .items a
+    {
+      font-size: 10px;
+    }
+
+    figure.projet figcaption
+    {
+      margin-left: 0px;
+    }
+
+
+
+
+    /************************** RESPONSIVE  FOOTER************************ */
+
+    footer .container
+    {
+      position: static;
+      clear: both;
+
+    }
+
+    footer .bloc
+    {
+      position: static;
+      clear: both;
+    }
+    .contact_form
+    {
+      width: auto;
+      margin: 10px;
+      padding: 10px;
+      float: none;
+    }
+
+    input, textarea
+
+    {
+      width: 100%;
+      height: auto;
+      margin-top: 10px;
+      border: 3px solid #DADCDC;
+      font-size: 1.2em;
+      font-weight: bold;
+
+    }
+
+    .submit
+
+    {
+      padding-top: 5px;
+      color: white;
+      font-size: 1em;
+      width: auto;
+      height: 40px;
+      background-color: #5daacf;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border: 3px solid #3491B2;
+      border-radius: 5px;
+      box-shadow: 0px 4px  #3491B2;
+    }
+
+  }
